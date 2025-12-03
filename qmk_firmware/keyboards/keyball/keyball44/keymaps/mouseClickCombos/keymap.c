@@ -81,7 +81,7 @@ void oledkit_render_info_user(void) {
 #ifdef COMBO_ENABLE
 const uint16_t PROGMEM my_btn1[] = { KC_N, KC_T, COMBO_END }
 const uint16_t PROGMEM my_btn2[] = { KC_R, KC_T, COMBO_END }
-const uint16_t PROGMEM my_btn3[] = { KC_R, KC_T, COMBO_END }
+const uint16_t PROGMEM my_btn3[] = { KC_N, KC_R, COMBO_END }
 
 combo_t key_combos[] = {
   COMBO(my_btn1, KC_BTN1),
